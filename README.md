@@ -7,6 +7,6 @@ O código pode ser testado no terminal, executando "dart run desafio.dart" na pa
 Features:
 
 * Controle de erro na entrada de dados.
-  - Caso seja inserido caracteres diferentes de um numeral na solicitação do número, será retornado uma mensagem indicando o erro e o código precisará ser reiniciado.
+  - Caso seja inserido caracteres diferentes de um numeral na solicitação do número ou o número seja negativo, será retornado uma mensagem indicando o erro e o código precisará ser reiniciado.
   - Ao solicitar o encerramento ou continuação da execução, caso a resposta seja diferente do esperado presente no enunciado, a execução será encerrada. 
 * Estrutura condicional para realizar o teste com números diferentes, sem precisar executar o código várias vezes.
