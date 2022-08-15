@@ -19,7 +19,7 @@ main() {
     try {
       number = int.parse(stdin.readLineSync()!);
     } catch (e) {
-      print('\número inválido,tente novamente!\nErro => $e\n\n');
+      print('\nNúmero inválido,tente novamente!\nErro => $e\n\n');
       return;
     }
     List<int>? dividerList = [];
