@@ -18,6 +18,9 @@ main() {
     print('\nDigite um número');
     try {
       number = int.parse(stdin.readLineSync()!);
+      if (number < 0) {
+        throw Exception('O número digitado é nagativo');
+      }
     } catch (e) {
       print('\nNúmero inválido,tente novamente!\nErro => $e\n\n');
       return;
