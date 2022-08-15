@@ -2,7 +2,7 @@
 
 Executando o código:
 
-O código pode ser testado no terminal, executando "dart run desafio.dart" na pasta onde está o arquivo, caso o Dart já esteja devidamente instalado na máquina. 
+O código pode ser testado no terminal, digitando "dart run desafio.dart" na pasta onde está o arquivo, caso o Dart já esteja devidamente instalado na máquina. 
 
 Features:
 
